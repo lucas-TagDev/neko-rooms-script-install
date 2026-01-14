@@ -71,3 +71,11 @@ Docker internal port [8080]: <ENTER>
 If you encounter any issues or have questions, feel free to leave a comment or open an issue in the repository.
 
 ✅ Installation complete. Enjoy your Neko Rooms server!
+
+
+Download images / update
+You need to pull all your images, that you want to use with neko-room. Otherwise, you might get this error: (see issue #1).Error response from daemon: No such image:
+
+docker pull ghcr.io/m1k1o/neko/firefox
+docker pull ghcr.io/m1k1o/neko/chromium
+# etc...
